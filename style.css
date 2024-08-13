@@ -1,15 +1,37 @@
-/* Custom styles for dark mode */
-body.dark {
+body.light-mode {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+body.dark-mode {
     background-color: #343a40;
-    color: #f8f9fa;
+    color: #fff;
 }
 
-body.dark .card {
-    background-color: #495057;
-    color: #f8f9fa;
+.navbar-light {
+    background-color: #e3f2fd;
 }
 
-body.dark .btn-primary {
+.navbar-dark {
+    background-color: #343a40;
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card h6 {
+    font-size: 1.5rem;
+}
+
+.btn-primary {
     background-color: #007bff;
     border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
 }
