@@ -1,0 +1,15 @@
+/* Custom styles for dark mode */
+body.dark {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+body.dark .card {
+    background-color: #495057;
+    color: #f8f9fa;
+}
+
+body.dark .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
