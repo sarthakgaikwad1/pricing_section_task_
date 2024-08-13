@@ -1,1 +1,1 @@
-Pricing Section using HTML, CSS, and JavaScript
+Pricing Section using HTML, CSS, Bootstrap and JavaScript
